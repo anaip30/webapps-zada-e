@@ -1,3 +1,11 @@
 // 1 zadatak
 const eh = (kuna) => {return kuna*7.5};
 console.log(eh(44))
+
+// 2 zadatak
+const a = (broj) => {  
+    for(let i=100; i<=150000 ; i++){ 
+    if(broj===i) return "broj je unutra"; 
+    else return " broj nije unutar [100,150000]";
+}}
+console.log(a(33))
